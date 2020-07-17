@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
 use Voyager\Admin\Contracts\Plugins\GenericPlugin;
 
-class ThemeBoilerplate implements ThemePlugin
+class ThemeBoilerplate implements GenericPlugin
 {
     public $name = 'Generic boilerplate';
     public $description = 'A boilerplate for a generic Voyager II plugin';

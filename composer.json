@@ -2,6 +2,7 @@
     "name": "voyager-admin/generic-boilerplate",
     "description": "A boilerplate for a generic Voyager II plugin",
     "license": "MIT",
+    "keywords": ["voyager2-plugin"],
     "authors": [
         {
             "name": "Christoph Schweppe",
@@ -16,7 +17,6 @@
             "VoyagerAdmin\\GenericBoilerplate\\": "src/"
         }
     },
-    "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [

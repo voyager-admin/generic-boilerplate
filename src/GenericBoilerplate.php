@@ -11,4 +11,9 @@ class ThemeBoilerplate implements GenericPlugin
     public $repository = 'voyager-admin/generic-boilerplate';
     public $website = 'https://github.com/voyager-admin/generic-boilerplate';
     public $version = '1.0.0';
+
+    public function __construct()
+    {
+        $this->readme = realpath(dirname(__DIR__, 1).'/README.md');
+    }
 }
